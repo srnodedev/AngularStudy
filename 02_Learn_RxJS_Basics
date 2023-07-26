@@ -1,0 +1,26 @@
+1. Observable lifecycle
+An observable is a function that acts as a wrapper for a data stream. They support to pass messages inside your application. An observable is useless until an observer subscribes to it. An observer is an object which consumes the data emitted by the observable. An observer keeps receiving data values from the observable until the observable is completed, or the observer unsubscribes from the observable. Otherwise observers can receive data values from the observable continuously and asynchronously. So we can perform various operations such as updating the user interface, or passing the JSON response.
+
+There are 4 stages for a life cycle of an observable.
+
+Creation
+Subscription
+Execution
+Destruction
+Visit the following resources to learn more:
+
+Understanding Observable LifeCycle(https://medium.com/analytics-vidhya/understanding-rxjs-observables-ad5b34d9607f)
+
+2. Filtering
+RxJS provides a variety of filtering operators that you can use to filter and transform the data in a stream. You can use these operators in combination with other RxJS operators to create powerful and efficient data processing pipelines.
+
+Visit the following resources to learn more:
+
+Understanding RxJS Operators(https://rxjs.dev/api/operators)
+
+3. Rate limiting
+Rate limiting in RxJS refers to the practice of restricting the rate at which events or data can be emitted from an observable. This can be useful in situations where the rate of incoming data is higher than the rate at which it can be processed, or where there are limits on the number of requests that can be made to a server. There are a few different operators in RxJS that can be used for rate limiting, such as throttleTime and sampleTime. These operators can be used to limit the rate of emissions from an observable by discarding emissions that occur too frequently. Another operator is auditTime it emits the last value from the source Observable during periodic time windows.
+
+Visit the following resources to learn more:
+
+throttleTime(https://rxjs.dev/api/operators/throttleTime)
