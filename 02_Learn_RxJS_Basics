@@ -24,3 +24,5 @@ Rate limiting in RxJS refers to the practice of restricting the rate at which ev
 Visit the following resources to learn more:
 
 throttleTime(https://rxjs.dev/api/operators/throttleTime)
+sampleTime(https://rxjs.dev/api/operators/sampleTime)
+auditTime(https://rxjs.dev/api/operators/auditTime)
