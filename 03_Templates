@@ -1,0 +1,18 @@
+1. Interpolation, Property Binding, Template Statements, Binding(Data, Props, Attrs, Events), Reference Var, @Input, @Output
+  Interpolation refers to embedding expressions into marked up text. By default, interpolation uses the double curly braces {{ and }} as delimiters. 
+  Property binding helps you set values for properties of HTML elements or directives. To bind to an element’s property, enclose it in square brackets [] which causes Angular to evaluate the right-hand side of the assignment as a dynamic expression.
+  Template statements are methods or properties that you can use in your HTML to respond to user events. With template statements, your application can engage users through actions such as displaying dynamic content or submitting forms. Enclose the event in () which causes Angular to evaluate the right hand side of the assignment as one or more template statements chained together using semicolon ;.
+  In an Angular template, a binding creates a live connection between view and the model and keeps them both in sync.
+  Template reference variables help you use data from one part of a template in another part of the template. A template variable can refer to a DOM element within a template, component or directive. In the template, use the hash symbol, #, to declare a template reference variable.
+  @Input() and @Output() give a child component a way to communicate with its parent component. @Input() lets a parent component update data in the child component. Conversely, @Output() lets the child send data to a parent component.
+2. Components, Templates, Modules, Dependency Injections, Services, Routing
+  Components are the main building block for Angular applications. Each component consists of:
+    An HTML template that declares what renders on the page
+    A TypeScript class that defines the behavior
+    A CSS selector that defines how the component is used in a template
+    Optionally, CSS styles applied to the template
+  A Template is a form of HTML which tells Angular to go towards another component. To create many Angular features, special syntax within the templates is used.
+  Modules in Angular act like a container where we can group the components, directives, pipes, and services, related to the application.
+  Dependency Injection is one of the fundamental concepts in Angular. DI is wired into the Angular framework and allows classes with Angular decorators, such as Components, Directives, Pipes, and Injectables, to configure dependencies that they need.
+  Services let you define code or functionalities that are then accessible and reusable in many other components in the Angular project. It also helps you with the abstraction of logic and data that is hosted independently but can be shared across other components.
+  Routing in Angular allows the users to create a single-page application with multiple views and allows navigation between them.
