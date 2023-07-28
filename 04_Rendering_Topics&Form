@@ -1,0 +1,15 @@
+1. Builtin pipes
+  Use pipes to transform strings, currency amounts, dates, and other data for display. Pipes are simple functions to use in template expressions to accept an input value and return a transformed value. Pipes are useful because you can use them throughout your application , some common pipes are
+
+  DatePipe | UpperCasePipe | LowerCasePipe | CurrencyPipe | DecimalPipe | PercentPipe
+2. Builin directives
+  SKDirectives are classes that add additional behavior to elements in your Angular applications. Use Angular’s built-in directives to manage forms, lists, styles, and what users see.
+  NgClass Adds and removes a set of CSS classes. | NgStyle Adds and removes a set of HTML styles. | NgModel Adds two-way data binding to an HTML form element.
+3. Reactive Forms
+  Reactive Forms in angular are those which used to handle the inputs coming from the user. We can define controls by using classes such as FormGroup and FormControl.
+4. Template Driven Forms
+  A Template driven form is the simplest form we can build in Angular. It is mainly used for creating simple form application.
+  It uses two-way data-binding (ngModel) to create and handle the form components.
+  <input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="model.name" name="name">
